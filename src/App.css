@@ -11,14 +11,14 @@
 
 .app__decoration__top {
     position: absolute;
-    top: -45%;
-    left: -20%;
+    top: -450px;
+    left: -300px;
 }
 
 .app__decoration__bottom {
     position: absolute;
-    right: -15%;
-    bottom: -60%;
+    right: -300px;
+    bottom: -500px;
 }
 
 .card {

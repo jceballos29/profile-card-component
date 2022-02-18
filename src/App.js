@@ -37,7 +37,7 @@ function App() {
                 </div>
                 <div className="card__footer">
                     {footerContent.map((item) => (
-                        <div className="card__footer__item">
+                      <div key={item.title} className="card__footer__item">
                             <h2>{item.number}</h2>
                             <span>{item.title}</span>
                         </div>
